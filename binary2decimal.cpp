@@ -8,9 +8,8 @@ int bin2dec(int n)
     int m, i, sum_;
     i = 0;
     sum_ = 0;
-    while (m>0)
+    while (n>0)
     {
-        cout << n << endl;
         m = n%10;
         n = n/10;
         sum_ = sum_ + m*pow(2,i);
